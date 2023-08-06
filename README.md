@@ -1,4 +1,6 @@
 ## *hashcat* ##
+Simple Example List Rewritten By
+MichaelSoft Development :')To Get Any Of the Pws Cracked 
 
 **hashcat** is the world's fastest and most advanced password recovery utility, supporting five unique modes of attack for over 300 highly-optimized hashing algorithms. hashcat currently supports CPUs, GPUs, and other hardware accelerators on Linux, Windows, and macOS, and has facilities to help enable distributed password cracking.
 
@@ -52,3 +54,4 @@ If your patch fixes a bug, please be sure there is an [issue](https://github.com
 In order to maintain the quality and integrity of the **hashcat** source tree, all pull requests must be reviewed and signed off by at least two [board members](https://github.com/orgs/hashcat/people) before being merged. The [project lead](https://github.com/jsteube) has the ultimate authority in deciding whether to accept or reject a pull request. Do not be discouraged if your pull request is rejected!
 
 ### Happy Cracking!
+Remember To Support MichaelSoft In early Developmental Stages To help Encourage all The Write Ones ####!!!!!! Another one!!!
