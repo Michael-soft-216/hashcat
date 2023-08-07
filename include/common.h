@@ -3,8 +3,8 @@
  * License.....: MIT
  */
 
-#ifndef COMMON_H
-#define COMMON_H
+#ifndef HC_COMMON_H
+#define HC_COMMON_H
 
 #define PROGNAME "hashcat"
 
@@ -76,7 +76,7 @@
 #endif
 
 /* The C++ standard denies redefinition of keywords,
-but this is nededed for VS compiler which doesn't have inline keyword but has __inline
+but this is needed for VS compiler which doesn't have inline keyword but has __inline
 */
 #ifndef __cplusplus
 #if defined (_MSC_VER)
@@ -143,5 +143,5 @@ but this is nededed for VS compiler which doesn't have inline keyword but has __
 #define EOL "\n"
 #endif
 
-#endif // COMMON_H
+#endif // HC_COMMON_H
 

@@ -3,8 +3,8 @@
  * License.....: MIT
  */
 
-#ifndef EXT_CUDA_H
-#define EXT_CUDA_H
+#ifndef HC_EXT_CUDA_H
+#define HC_EXT_CUDA_H
 
 /**
  * from cuda.h (/usr/local/cuda-10.1/targets/x86_64-linux/include/cuda.h)
@@ -675,10 +675,10 @@ typedef enum CUjit_option_enum
   CU_JIT_FAST_COMPILE,
 
   /**
-   * Array of device symbol names that will be relocated to the corresponing
+   * Array of device symbol names that will be relocated to the corresponding
    * host addresses stored in ::CU_JIT_GLOBAL_SYMBOL_ADDRESSES.\n
    * Must contain ::CU_JIT_GLOBAL_SYMBOL_COUNT entries.\n
-   * When loding a device module, driver will relocate all encountered
+   * When loading a device module, driver will relocate all encountered
    * unresolved symbols to the host addresses.\n
    * It is only allowed to register symbols that correspond to unresolved
    * global variables.\n
@@ -1182,4 +1182,4 @@ int hc_cuLinkAddData           (void *hashcat_ctx, CUlinkState state, CUjitInput
 int hc_cuLinkDestroy           (void *hashcat_ctx, CUlinkState state);
 int hc_cuLinkComplete          (void *hashcat_ctx, CUlinkState state, void **cubinOut, size_t *sizeOut);
 
-#endif // EXT_CUDA_H
+#endif // HC_EXT_CUDA_H
